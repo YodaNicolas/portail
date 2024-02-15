@@ -3,16 +3,6 @@
     padding: 0;
 }
 
-.section {
-    width: 100%;
-    height: 100vh;
-    background-image: url('../Images/fond_large.jpeg');
-    /* background-size: 100% !important; */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-
-}
 
 
 .bodySection {
@@ -56,10 +46,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 45%;
+    width: 370px;
+    /* max-width: 300px; */
     height: 200px;
     border-radius: 8px;
-    /* background-color: rgba(0, 0, 0, 0.568) */
+    background-color: rgba(0, 0, 0, 0.281)
 }
 
 .oubliDiv {
@@ -78,6 +69,35 @@
     align-items: end;
 }
 
+.section {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../Images/fond_large.jpeg');
+    /* background-size: 80% !important; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+/* 
+@media screen and (max-width:1409px) {
+    .section {
+        background-image: url('../Images/Fond.jpeg');
+        background-size: 100% !important;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .formCard {
+        width: 60%;
+        /* height: 20%; */
+/* position: relative;
+        bottom: 35px;
+    }
+} 
+*/
 @media screen and (max-width:654px) {
     .section {
         background-image: url('../Images/Fond.jpeg');
@@ -100,7 +120,7 @@
     }
 
     .formCard {
-        width: 80%;
+        width: 75%;
         /* height: 20%; */
         /* position: relative;
         bottom: 35px; */
